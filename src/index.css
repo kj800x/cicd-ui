@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  background: #dfe3eb;
+  color: #33475b;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+header {
+  background: #2d3e50;
+  color: #eaf0f6;
+  padding: 12px;
+  display: flex;
+}
+
+header h1 {
+  flex: 1;
+}
+
+header .icon {
+  font-size: 2em;
+}
+
+.content {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+.content > .app {
+  border: 3px solid #5e6ab8;
+  border-radius: 6px;
+  margin: 12px 0;
+  padding: 8px;
+  background: #f0f1fa;
+}
+
+.content > .app > h2 {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #516f90;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content > .app > h2 > .icon {
+  flex-shrink: 0;
+}
+
+.content > .app > h2 > a {
+  color: #6a78d1;
+  margin-right: 4px;
+}
+
+.content > .app > h2 > .app-icon {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.route {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #00a4bd;
+}
+
+.no-color {
+  color: inherit !important;
+}
+
+.icon {
+  border-radius: 20px;
+  float: right;
+  width: 1em;
+  height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 8px;
+  user-select: none;
+}
+
+.icon-text {
+  font-size: 0.7em;
+  color: #2d3e50;
+  align-self: baseline;
+}
+
+.noRoutes {
+  text-align: center;
+  display: block;
+  padding: 24px;
+  font-size: xx-large;
+}
+
+.modal {
+  border: 3px dashed #5e6ab8;
+  border-radius: 6px;
+  margin: 12px 0;
+  padding: 8px;
+  background: #f0f1fa;
+}
+
+.modal > h3 {
+  color: #6a78d1;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #516f90;
+  margin-bottom: 12px;
+}
+
+.ball-grid-pulse > div, .ball-pulse > div {
+  background-color: #2d3e50 !important;
+}
+
+.content > .loader {
+  margin: 20px auto;
+  width: 58px;
+  height: 58px;
+}
+
+.form-input > label {
+  display: block;
+}
+.form-input {
+  margin: 12px 0;
+}
+
+ul.route-details {
+  margin: 0;
+  font-size: small;
+  list-style: circle;
+}
